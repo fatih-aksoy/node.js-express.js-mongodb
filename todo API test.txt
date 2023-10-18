@@ -1,0 +1,28 @@
+npm init -y
+npm i express
+npm i mongoose
+npm i dotenv
+npm i nodemon 
+
+package.json:   "start": "nodemon app.js
+
+8000 port tu dinle
+
+**app.json
+genel cagirma islemleri
+
+**model
+-todoModel.js
+
+
+**controller
+CRUD islemleri burada yaziliyor async ve await islemeleri, 
+controller da yapilan islemler modeule.exports ile disari acilir. 
+guncelleme yaparken todo da iki parametre alir. Ornegin await todo.findByIdAndUpdate(id, req.body);
+
+
+**router
+islmelerin yol tanimlamasi ise burada yapiliyor. async ve await islemeleri burada yapilir.
+route belirlerken update ve silme islemleri "/todo/:id" ama create ve read islemleir "/todo" olarak yazilir.
+
+
